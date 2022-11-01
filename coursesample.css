@@ -1,0 +1,80 @@
+
+*{
+   margin:0;
+   padding: 0;
+   background:white;
+}
+body{
+   color: green;
+	display: flex;
+	height: 100vh;
+   width: 90px;
+	justify-content: left;
+	align-items: center;
+	padding: 10px;
+	
+}
+.container{
+   box-sizing: border-box;
+   color:red;
+   padding: 90px;
+   
+}
+
+
+.container .heading{
+   font-size: 150%;
+   font-style:bold;
+   font-weight: 500;
+   padding:15px;
+   color: red;
+}
+
+
+.container .form .card_details{
+   margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+form .card-details .card-box{
+	  width: calc(100% /2 -200px);
+	  margin-bottom: 15px;
+}
+.card-details .card-box .details
+{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.form .button{
+	text-align: left;
+   padding: 2px;
+   background: #B9DFFF;
+   color: #fff;
+   border: 1px solid #eee;
+   border-radius: 20px;
+   box-shadow: light;
+   text-shadow: none;
+}
+.form .button input{
+	padding: 10px;
+	margin-top: 10px 0;
+	height: 100%;
+	width: 100%;
+	outline:none;
+   color: ;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+form .button input::hover{
+	background: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+
+
+
+
